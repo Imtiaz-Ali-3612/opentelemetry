@@ -1,4 +1,6 @@
-et -e
+#!/bin/bash
+
+set -e
 export DEBIAN_FRONTEND=noninteractive
 export THRIFT_VERSION=0.14.1
 
