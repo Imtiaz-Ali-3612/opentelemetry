@@ -2,7 +2,7 @@
 
 set -e
 export DEBIAN_FRONTEND=noninteractive
-export THRIFT_VERSION=0.14.1
+export THRIFT_VERSION=0.17.0
 
 if ! type cmake > /dev/null; then
     #cmake not installed, exiting
